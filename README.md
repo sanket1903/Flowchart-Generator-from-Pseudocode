@@ -28,49 +28,72 @@ The ENDIF, NEXT var, and ENDWHILE blocks are mandatory
 ## Input and Output:
 
 INPUT x
+
 OUTPUT x
 
 
 INPUT X
+
 OUTPUT var
+
 OUTPUT "hello"
 
 ## IF statements:
 
 IF condition THEN
+
 ELSE
+
 ENDIF
 
 IF x < 3 THEN
+
   OUTPUT X
+  
 ELSE
+
   OUTPUT x*2
+  
 ENDIF
+
 The else statement is optional (ENDIF is still necessary)
 
 IF x < 3 THEN
+
  OUTPUT X
+ 
 ENDIF
 
 ## Process-type blocks:
+
 x = x + 1
+
 y = x / 2
 
 
 ## While loops:
+
 WHILE condition DO
+
 ENDWHILE
 
 WHILE x < 5 DO
+
   OUTPUT x
+  
 ENDWHILE
 
 
 ## For loops:
+
 FOR var <- start TO end
+
 NEXT var
+
 FOR i <- 1 TO 5
+
   OUTPUT i
+  
 NEXT i
 
 
