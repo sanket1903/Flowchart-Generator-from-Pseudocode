@@ -1,0 +1,6 @@
+OUTPUT "Enter a number"
+INPUT num1
+OUTPUT "Enter a 2nd number"
+INPUT num2
+sum = num1 + num2
+OUTPUT "The sum is: "+sum
