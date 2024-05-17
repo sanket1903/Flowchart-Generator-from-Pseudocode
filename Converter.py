@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 
 '''
 A program that converts pseudocode to .png flowcharts
