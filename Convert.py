@@ -13,10 +13,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 from tree import newTree,newNode
 
-__author__ = "Mugilan Ganesan"
-__email__ = "mugi.ganesan@gmail.com"
-__status__ = "Developer"
-__version__ = "1.1.0"
+__author__ = "Sanket Parulekar"
+__email__ = "sanketparulekar1903@gmail.com"
+
 
 def read(file_name):
 
