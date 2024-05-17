@@ -98,6 +98,29 @@ NEXT i
 
 
 
+# CLI usage
+
+To run the code, simply execute the following command:
+
+python Converter.py
+
+
+## Arguments
+
+Arguments in the CLI are typed like so: --size=20 or --code="enter.txt"
+
+--size is the font size used. This controls the size of the entire flowchart as well. By default it is 20px
+--font is the font path. A default NotoSans font is used at "./fonts/", but can be changed for different OSs or fonts
+--output is the flowchart's image file. Default is "flowchart.png"
+--code is the file with the pseudocode. Defaults to "enter.txt"
+--help provides CLI help
+
+For example:
+
+python Converter.py --code="code.txt" --size=30 --output="result.png"
+
+
+
 
 
 
