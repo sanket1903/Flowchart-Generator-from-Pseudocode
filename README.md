@@ -105,7 +105,7 @@ NEXT i
 
 To run the code, simply execute the following command:
 
-python Converter.py
+python Convert.py
 
 
 ## Arguments
