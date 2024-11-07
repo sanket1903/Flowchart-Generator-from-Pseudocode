@@ -1,25 +1,25 @@
 OUTPUT "Enter a number between 1 and 7 to get the day of the week:"
 INPUT day
 
-IF day = 1 THEN
+IF day == 1 THEN
   OUTPUT "Monday"
 ELSE
-  IF day = 2 THEN
+  IF day == 2 THEN
     OUTPUT "Tuesday"
   ELSE
-    IF day = 3 THEN
+    IF day == 3 THEN
       OUTPUT "Wednesday"
     ELSE
-      IF day = 4 THEN
+      IF day == 4 THEN
         OUTPUT "Thursday"
       ELSE
-        IF day = 5 THEN
+        IF day == 5 THEN
           OUTPUT "Friday"
         ELSE
-          IF day = 6 THEN
+          IF day == 6 THEN
             OUTPUT "Saturday"
           ELSE
-            IF day = 7 THEN
+            IF day == 7 THEN
               OUTPUT "Sunday"
             ELSE
               OUTPUT "Invalid input. Please enter a number between 1 and 7."
