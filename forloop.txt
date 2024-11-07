@@ -1,0 +1,11 @@
+OUTPUT "Enter a number to calculate the sum of squares up to that number:"
+INPUT n
+
+sum = 0
+
+FOR i <- 1 TO n
+  sum = sum + (i * i)
+NEXT i
+
+OUTPUT "The sum of squares is:"
+OUTPUT sum

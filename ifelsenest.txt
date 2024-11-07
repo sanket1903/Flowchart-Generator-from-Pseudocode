@@ -1,0 +1,13 @@
+
+OUTPUT "Enter a Number"
+INPUT x
+IF x > 0 THEN
+    OUTPUT "It is Positive Number"
+ELSE
+    IF x == 0 THEN
+        OUTPUT "It is Zero"
+    ELSE
+        OUTPUT "It is Negative Number"
+    ENDIF
+ENDIF
+
