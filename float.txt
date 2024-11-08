@@ -1,0 +1,9 @@
+OUTPUT "Enter a floating-point number:"
+INPUT num1
+OUTPUT "Enter another floating-point number:"
+INPUT num2
+
+sum = num1 + num2
+
+OUTPUT "The sum of the two numbers is:"
+OUTPUT sum

@@ -1,0 +1,44 @@
+OUTPUT "Enter a character:"
+INPUT ch
+
+IF ch == 'a' THEN
+  OUTPUT "The character is a vowel."
+ELSE
+  IF ch == 'e' THEN
+    OUTPUT "The character is a vowel."
+  ELSE
+    IF ch == 'i' THEN
+      OUTPUT "The character is a vowel."
+    ELSE
+      IF ch == 'o' THEN
+        OUTPUT "The character is a vowel."
+      ELSE
+        IF ch == 'u' THEN
+          OUTPUT "The character is a vowel."
+        ELSE
+          IF ch == 'A' THEN
+            OUTPUT "The character is a vowel."
+          ELSE
+            IF ch == 'E' THEN
+              OUTPUT "The character is a vowel."
+            ELSE
+              IF ch == 'I' THEN
+                OUTPUT "The character is a vowel."
+              ELSE
+                IF ch == 'O' THEN
+                  OUTPUT "The character is a vowel."
+                ELSE
+                  IF ch == 'U' THEN
+                    OUTPUT "The character is a vowel."
+                  ELSE
+                    OUTPUT "The character is a consonant."
+                  ENDIF
+                ENDIF
+              ENDIF
+            ENDIF
+          ENDIF
+        ENDIF
+      ENDIF
+    ENDIF
+  ENDIF
+ENDIF
